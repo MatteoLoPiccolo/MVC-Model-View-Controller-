@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1482587362079516065}
   - component: {fileID: 1311698253601638766}
+  - component: {fileID: 3032927834077322626}
+  - component: {fileID: 2508467104823355698}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -44,6 +46,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b07a0d650306ba4ba208153592d7795, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 3032927834077322626}
+--- !u!54 &3032927834077322626
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482587362079553601}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!65 &2508467104823355698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482587362079553601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7189665, y: 1.9398255, z: 2.395641}
+  m_Center: {x: -0.002349496, y: 0.92102885, z: -0.07283604}
 --- !u!1 &1482587362079553603
 GameObject:
   m_ObjectHideFlags: 0
