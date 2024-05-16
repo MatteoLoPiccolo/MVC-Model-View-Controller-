@@ -128,6 +128,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3391581624836101769, guid: b02382b9e205b7f4d89a5c94e08a2724,
+        type: 3}
+      propertyPath: tankSpawner
+      value: 
+      objectReference: {fileID: 377970430}
     - target: {fileID: 3870283614252560928, guid: b02382b9e205b7f4d89a5c94e08a2724,
         type: 3}
       propertyPath: m_Pivot.x
@@ -339,7 +344,7 @@ MonoBehaviour:
   - movementSpeed: 30
     rotationSpeed: 75
     tankTypes: 0
-    color: {fileID: 2100000, guid: 424be3af6ad117140887d3e652a89d24, type: 2}
+    color: {fileID: 2100000, guid: c39933e60e73205419d1f79a2af1fdac, type: 2}
   - movementSpeed: 10
     rotationSpeed: 50
     tankTypes: 1
